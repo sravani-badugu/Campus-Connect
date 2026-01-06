@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Campus Connect</string>
+    <string name="underline_student_register"><![CDATA[<u>Register as Student</u>]]></string>
+    <string name="underline_faculty_register"><![CDATA[<u>Register as Faculty</u>]]></string>
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Faculty</item>
+    </string-array>
+
+
+</resources>

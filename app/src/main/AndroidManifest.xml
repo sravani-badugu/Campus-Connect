@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campusconnect"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CampusConnect"
+        tools:replace="android:fullBackupContent">
+
+
+    <!-- Main launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FacultyLoginActivity"
+            android:exported="true" />
+        <activity android:name=".StudentDashboardActivity"
+            android:exported="true"/>
+        <activity android:name=".FacultyDashboardActivity"
+            android:exported="true"/>
+        <activity android:name=".ProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".FacultyUpcomingEventsActivity"
+            android:exported="true"/>
+        <activity android:name=".StudentRegisterActivity"
+            android:exported="true"/>
+        <activity android:name=".FacultyRegisterActivity"
+            android:exported="true"/>
+        <activity android:name=".PostEventActivity"
+            android:exported="true"/>
+        <activity android:name=".EventsAdapter"
+            android:exported="true"/>
+        <activity android:name=".EventModel"
+            android:exported="true"/>
+        <activity android:name=".CloudinaryConfig"
+            android:exported="true"/>
+        <activity android:name=".FileUtils"
+            android:exported="true"/>
+        <activity android:name=".EventImageAdapter"
+            android:exported="true"/>
+        <activity android:name=".IssueAdapter"
+            android:exported="true"/>
+        <activity android:name=".IssueModel"
+            android:exported="true"/>
+        <activity android:name=".ReportFoundActivity"
+            android:exported="true"/>
+        <activity android:name=".ReportLostActivity"
+            android:exported="true"/>
+        <activity android:name=".IssueReportingActivity"
+            android:exported="true"/>
+        <activity android:name=".LostFoundActivity"
+            android:exported="true"/>
+        <activity android:name=".PlacementActivity"
+            android:exported="true"/>
+
+
+    </application>
+
+</manifest>

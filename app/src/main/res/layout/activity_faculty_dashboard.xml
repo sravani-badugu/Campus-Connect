@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/tvWelcomeFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome,Faculty"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Events/News"
+        android:layout_margin="10dp" />
+
+
+    <Button
+        android:id="@+id/btnFDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Development Programme"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue Reporting"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnPlacements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Placements"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btnLost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lost and Found"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

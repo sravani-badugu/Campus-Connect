@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.CampusConnect" parent="Theme.Material3.DayNight">
+        <!-- Disable ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Optional: Customize your colors -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- <item name="colorSecondary">@color/my_light_secondary</item> -->
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.CampusConnect" parent="Base.Theme.CampusConnect" />
+
+</resources>

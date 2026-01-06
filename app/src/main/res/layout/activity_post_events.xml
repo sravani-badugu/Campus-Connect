@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Event Title -->
+        <EditText
+            android:id="@+id/etEventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Title"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Event Description -->
+        <EditText
+            android:id="@+id/etEventDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Optional Google Form Link -->
+        <EditText
+            android:id="@+id/etFormLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Optional: Google Form Link"
+            android:inputType="textUri"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Select Image Button -->
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Preview Selected Image -->
+        <ImageView
+            android:id="@+id/ivSelectedImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:background="#E0E0E0"/>
+
+        <!-- Post Event Button -->
+        <Button
+            android:id="@+id/btnPostEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Event"
+            android:backgroundTint="@android:color/holo_purple"
+            android:textColor="@android:color/white"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>
